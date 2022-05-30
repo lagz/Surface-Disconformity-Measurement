@@ -1,3 +1,5 @@
+//Author: Maxwell LaGassa\\
+
 #include <SPI.h>
 #include <SD.h>
 #include <Wire.h>
@@ -94,6 +96,8 @@ void loop()
   }
   
 }
+
+//Failed to initialize MicroSD Card\\
 void failure()
 {
   while(1)
@@ -104,6 +108,8 @@ void failure()
       delay(200);
   }
 }
+
+//Create unique filenames for each dataset\\
 int createFileMod(int filemod)
 {
   if(!SD.exists("DATASETS/DATA-1.txt"))
