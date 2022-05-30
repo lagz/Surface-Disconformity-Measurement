@@ -22,5 +22,6 @@
 
 ## Future Additions 
 - While I can live with the mechanical design being quite crude, there is certainly room for importavement within the programming. I would like to add some more error checking loops and organize the code better. I also think a more elegant algorithm can be implemented. Message me if you have any ideas. 
+- Definitely need to add a parts list to the README.
 
 (Note: to keep costs low, off-the-shelf components were used for the majority of the project)
